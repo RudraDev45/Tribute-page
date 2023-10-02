@@ -1,0 +1,247 @@
+body{
+    background-image: url(gray-abstract-wireframe-technology-background_53876-101941.webp);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.image-container{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.athlete-name{
+    position: absolute;
+    bottom: 75px;
+    font-size: 16px;
+    left: 10px;
+    color:white;
+    background-color: rgba(255,255,255,0);
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px grey;
+}
+
+.line{
+    position: absolute;
+    width: 150px;
+    height: 1px;
+    background-color: orange;
+    left: 10px;
+    bottom: 60px;
+}
+
+.EK{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: rgba(255,255,255,0);
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    text-shadow: 5px 5px 5px grey;
+
+
+}
+
+header{
+    text-align: center;
+}
+
+.toc-dropdown {
+    position: relative;
+    display: inline-block;
+
+}
+
+
+.toc-button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.toc-list {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    top: 100%;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+
+
+.toc-list li {
+    padding: 10px;
+}
+
+
+.toc-dropdown:hover .toc-list, .toc-list:hover {
+    display: block;
+}
+
+
+.toc-list a {
+    text-decoration: none;
+    color: #333;
+}
+
+.toc-list a:hover {
+    color: #ff5733;
+}
+
+.PI{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgba(128, 128, 128, 0.493);
+}
+
+.personal-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.personal-info dt{
+    flex-basis: 30%;
+    font-weight: bold;
+}
+
+
+.personal-info dd{
+    flex-basis: 60%;
+}
+
+.achievement-list{
+    margin-top: 10px;
+
+}
+
+.achievements-titles {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+.achievements-titles dt{
+    flex-basis: 30%;
+    font-weight: bold;
+}
+
+.achievements-titles dd{
+    flex-basis: 60%; 
+}
+
+.famous_q{
+    width: 100%;
+    height: 700px;
+    background-image: url(paper-style-white-monochrome-background_52683-66443.webp);
+
+}
+ 
+.quote{
+    width: auto;
+    height: 60px;
+    border: 5px solid black;
+    border-radius: 20px;
+    margin: 20px;
+    margin-top: 10px;
+    padding: 5px;
+    background-image: url(abstract-gray-stripes-background_1035-19089.webp);
+    color: black;
+}
+
+.quote p{
+    padding-left: 5px;
+    background-image: url(abstract-gray-stripes-background_1035-19089.webp);
+}
+
+.gallery {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .gallery h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .gallery-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    margin-top: 20px;
+  }
+  
+  .gallery-item img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .gallery-item p {
+    font-size: 14px;
+    color: #777;
+    margin-top: 10px;
+  }
+
+  .footer{
+    color:black;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  .footer-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .powered-by{
+    margin-top: 10px;
+  }
+
+  .related-topics{
+    margin-top: 10px;
+  }
+
+  .copyright, .powered-by a, .related-topics a{
+    text-decoration: none;
+    color: #333;
+  }
+
+  .copyright:hover, .powered-by a:hover, .related-topics a:hover{
+    text-decoration: underline;
+    color:#ff5500;
+  }
+
+
+
+
+
