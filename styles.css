@@ -3,6 +3,11 @@ body{
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1,h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .image-container{
